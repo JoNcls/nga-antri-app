@@ -1,4 +1,5 @@
 @extends('layout.app')
 @section('content')
-    <h1>josua</h1>
+    <h1>history</h1>
+@include('layout.footer')
 @endsection

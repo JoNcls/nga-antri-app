@@ -1,2 +1,2 @@
 @extends('layout.master')
-@include('layout.header')
+@include('layout.sidebar')
