@@ -32,3 +32,12 @@ Route::get('/settings', function () {
 Route::get('/help', function () {
     return view('help_center'); 
 }); 
+Route::get('/login', function () {
+    return view('login'); 
+}); 
+Route::get('/register', function () {
+    return view('register'); 
+}); 
+Route::get('/forgot', function () {
+    return view('forgot'); 
+}); 
