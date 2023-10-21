@@ -1,5 +1,8 @@
 @extends('layout.master')
 @section('content')
+    <head>
+        <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+    </head>
     <div class="container d-lg-block py-lg-5 m-auto align-bottom">
         <div class="row justify-content-center ">    
             <div class="col-lg-4 p-5 text-center align-middle bg-white">
