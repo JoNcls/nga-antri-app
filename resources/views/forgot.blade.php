@@ -15,7 +15,7 @@
                     <label for="exampleInputEmail1" class="form-label fw-bold">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@email.com">
                 </div>
-                <button type="button" class="d-flex btn btn-primary justify-content-center">Submit</button>
+                <a href="{{ url('/login') }} "type="button" class="d-flex btn btn-primary justify-content-center">Submit</a>
                 <span class="d-lg-flex mt-2">Remember it?<a href="{{ url('/login') }}" class="d-lg-flex link-dark">Login</a></span>
             </div>
         </div>

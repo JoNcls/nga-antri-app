@@ -34,7 +34,7 @@
                     <label for="confirmPassword" class="form-label fw-bold">Confirm Password</label>
                     <input type="confirmPassword" class="form-control" id="confirmPassword" placeholder="password!23">
                 </div>
-                <button type="button" class="d-flex btn btn-primary align-item-center">Register</button>
+                <a href="{{ url('/') }} "type="button" class="d-flex btn btn-primary justify-content-center">Register</a>
                 <span class="d-lg-flex mt-2">already have an account? <a href="{{ url('/login') }}" class="d-lg-flex link-dark">Login</a></span>
             </div>
             

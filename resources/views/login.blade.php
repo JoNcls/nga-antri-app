@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('content')
-    <div class="container d-lg-block py-lg-5 m-auto  align-bottom">
+    <div class="container d-lg-block py-lg-5 m-auto align-bottom">
         <div class="row justify-content-center ">    
             <div class="col-lg-4 p-5 text-center align-middle bg-white">
                 <span class="d-lg-flex justify-content-center fs-3 mt-5">ngapain antri, kalau bisa</span>
@@ -20,7 +20,7 @@
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password!23">
                 </div>
                 <a href="{{ url('/forgot') }}" class="d-lg-flex justify-content-end link-dark">Forgot Password</a>
-                <button type="button" class="d-flex btn btn-primary justify-content-center">Login</button>
+                <a href="{{ url('/') }}" type="button" class="d-flex btn btn-primary justify-content-center">Login</a>
                 <span class="d-lg-flex mt-2">doesn't have an account? <a href="{{ url('/register') }}" class="d-sm-flex link-dark">Create One!</a></span>
             </div>
         </div>    
