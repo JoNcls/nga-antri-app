@@ -4,7 +4,7 @@
         <div class="row justify-content-center " >    
             <div class=" col-lg-4 p-5 text-center align-middle bg-white">
                 <span class="d-lg-flex justify-content-center fs-3 my-auto mt-5">ngapain antri, kalau bisa</span>
-                <img src={{ asset('/image/nga-antri-logo.jpg') }} alt="..." >
+                <a href="{{ url('/')}}"><img src={{ asset('/image/nga-antri-logo.jpg') }} alt="..."></a>
             </div>
             <div class="col-lg-5 p-5" style="background-color:#FFBFBF">
                 <span class="fs-4 fw-bold">Create Account</span>
