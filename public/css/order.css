@@ -1,0 +1,134 @@
+.banner {
+    text-align: center;
+    position: relative;
+}
+
+.banner img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.overlay-box {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%; 
+    height: 15%;
+    background: none;
+    border-radius: 20px;
+    background: #FBDDDD;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.back-button{
+    flex: 1;
+    padding-left: 10px;
+}
+
+.overlay-box .resto{
+    flex: 2;
+}
+
+.overlay-box .back-button,
+.overlay-box .rate,
+.overlay-box .votes {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+}
+
+.food-list {
+    font-size: 30px;
+    padding: 50px 135px;
+  }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.coloumn{
+    width: 80%; 
+    height: 200px; 
+    left: 150px;  
+    position: relative; 
+    background: white; 
+    border-radius: 20px;
+}
+
+.tittle{
+    width: 333.83px; 
+    height: 32px; 
+    left: 355px; 
+    top: 10px;
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    line-height: 36px;
+}
+
+.description{
+    width: 404.38px; 
+    height: 28px; 
+    left: 355px; 
+    top: 50px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.80); 
+    font-size: 18px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 30px; 
+}
+
+.price{
+    left: 355px; 
+    top: 150px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: bold;
+}
+
+.images img{
+    width: 250px; 
+    height: 200px; 
+    position: absolute; 
+    border-radius: 20px;
+    left: 0;
+}
+
+.cart-button {
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    border-radius: 6px;
+    background: #18A0FB;
+    cursor: pointer;
+}
+
+.button-text{
+    left: 50px; 
+    top: 11px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 15px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+}
+
+.drink-list {
+    font-size: 30px;
+    padding: 50px 135px;
+  }
