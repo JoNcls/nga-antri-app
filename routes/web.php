@@ -20,8 +20,11 @@ Route::get('/', function () {
 Route::get('/resto', function () {
     return view('resto'); 
 }); 
-Route::get('/order', function () {
-    return view('order'); 
+Route::get('/menu', function () {
+    return view('menu'); 
+}); 
+Route::get('/cart', function () {
+    return view('cart'); 
 }); 
 Route::get('/history', function () {
     return view('history'); 

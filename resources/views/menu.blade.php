@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('content')
 <head>
-<link rel="stylesheet" href="{{ asset('css/order.css') }}">
+<link rel="stylesheet" href="{{ asset('css/menu.css') }}">
     <script src="https://kit.fontawesome.com/5c31f508b8.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -41,7 +41,7 @@
                 </div>
                 
                 <div class="cart-button">
-                    <div class="button-text">add to cart</div>
+                    <a class="button-text" href="{{ url('/cart') }}">add to cart</a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                 </div>
                 
                 <div class="cart-button">
-                    <div class="button-text">add to cart</div>
+                    <a class="button-text" href="{{ url('/cart') }}">add to cart</a>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                 </div>
                 
                 <div class="cart-button">
-                    <div class="button-text">add to cart</div>
+                    <a class="button-text" href="{{ url('/cart') }}">add to cart</a>
                 </div>
             </div>
         </div>
