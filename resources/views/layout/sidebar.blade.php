@@ -1,7 +1,7 @@
 <div class="d-flex flex-wrap justify-content-between">
     <a href="#" class="col-md-2 p-3 text-decoration-none link-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
         <img src={{ asset('/image/nga-antri-logo.jpg') }} alt="..." style="width: 70px;">
-        <span class="ms-1 fs-4">Josua</span>
+        <span class="ms-1 fs-4">antri</span>
     </a>
 
     <div class="col-md-7 m-3 ">
@@ -12,14 +12,13 @@
             <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
         </svg>
     </a>
-    <a href="{{ url('/login') }}" type="button" class="btn col-md-1 text-center text-decoration-none m-auto" style="background-color:#FFBFBF">Login</a>
 </div>
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
     <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none offcanvas-title" id="offcanvasExampleLabel">
         <img src={{ asset('/image/nga-antri-logo.jpg') }} alt="..." style="width: 70px;">
-        <span class="ms-1 fs-4">Josua</span>
+        <span class="ms-1 fs-4">antri</span>
     </a>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
@@ -78,11 +77,11 @@
     </ul>
     <hr>
     <div class="">
-        <a href="{{ url('/') }}" class="d-flex align-items-center link-dark text-decoration-none">
+        <a href="{{ url('/login') }}" class="d-flex align-items-center link-dark text-decoration-none">
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 40 40" fill="none">
             <path d="M28.3333 13.3333L26 15.6667L28.6667 18.3333H15V21.6667H28.6667L26 24.3333L28.3333 26.6667L35 20L28.3333 13.3333ZM8.33333 8.33333H20V5H8.33333C6.5 5 5 6.5 5 8.33333V31.6667C5 33.5 6.5 35 8.33333 35H20V31.6667H8.33333V8.33333Z" fill="#49BCED"/>
         </svg>
-            <strong>Logout</strong>
+            <strong>Login</strong>
         </a>
     </div>
   </div>
