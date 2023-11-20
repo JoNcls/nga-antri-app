@@ -71,10 +71,50 @@
                 </div>
                 
                 <div class="d-flex my-3 mx-2 align-items-bottom justify-content-center">
-                    <a href="#" class="d-flex btn btn-primary justify-content-center">
+                    <button type="button" class="d-flex btn btn-primary justify-content-center" data-bs-toggle="modal" data-bs-target="#place_order">
                         Place Order
-                    </a>
+                    </button>
                 </div>
+
+                <div class="modal fade" id="place_order" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5 text-center">
+                                    Order Recieved
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span class="fs-4 fw-bold py-2 px-0">Payment</span>
+                                <div class="row p-0 bg-white rounded">
+                                    <div class="col-lg-9 pe-0 fw-bold">
+                                        <span>Sub Total</span>
+                                    </div>
+                                    <div class="col-lg-3 p-0 fw-bold">
+                                        <span>Rp. 53.000</span>
+                                    </div>
+                                    <div class="col-lg-9 pe-0">
+                                        <span>Fee</span>
+                                    </div>
+                                    <div class="col-lg-3 p-0">
+                                        <span>Rp. 1.500</span>
+                                    </div>
+                                    <div class="col-lg-9 pe-0">
+                                        <span>Total</span>
+                                    </div>
+                                    <div class="col-lg-3 p-0">
+                                        <span>Rp. 47.500</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="{{ url('/') }}" class="btn btn-primary align-items-center">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>    
     </div> 

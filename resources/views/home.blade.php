@@ -21,7 +21,7 @@
         <div class="category"><h1>Favorite</h1></div>
         <div class="favorite_container">
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -68,7 +68,7 @@
         <div class="category" id="recommend_category"><h1>Recommended for you</h1></div>
         <div class="recommend_container">
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -79,7 +79,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -90,7 +90,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -101,7 +101,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -115,7 +115,7 @@
         <div class="category" id="cheap_category"><h1>Cheap</h1></div>
         <div class="cheap_container">
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -126,7 +126,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -137,7 +137,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>
@@ -148,7 +148,7 @@
             </div>
 
             <div class="food_content">
-                <a href="{{ url('/cart') }}">
+                <a href="{{ url('/menu') }}">
                     <img src="/image/bakmie.png" alt="" class="foto_makanan">
                     <div class="nama_makanan">Bakmie Ayam</div>
                     <div class="tempat_makanan">Bakmie Effata</div>

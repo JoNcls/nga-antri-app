@@ -41,7 +41,7 @@
                 </div>
                 
                 <div class="cart-button">
-                    <a class="button-text" href="{{ url('/cart') }}">add to cart</a>
+                    <a class="button-text" href="#">add to cart</a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                 </div>
                 
                 <div class="cart-button">
-                    <a class="button-text" href="{{ url('/cart') }}">add to cart</a>
+                    <a class="button-text" href="#">add to cart</a>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                 </div>
                 
                 <div class="cart-button">
-                    <a class="button-text" href="{{ url('/cart') }}">add to cart</a>
+                    <a class="button-text" href="#">add to cart</a>
                 </div>
             </div>
         </div>
