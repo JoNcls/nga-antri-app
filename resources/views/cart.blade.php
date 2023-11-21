@@ -14,7 +14,7 @@
                     <img src="{{ asset('/image/bakmie.png') }}" alt="" width="100vw" height="100vh">
                     <div class="mx-2">
                         <h2>Bakmi Ayam</h2>
-                        <span">Rp. 30.000</span>
+                        <span>Rp. 30.000</span>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <a href="{{ url('/') }}" class="btn btn-primary align-items-center">Submit</a>
+                                <a href="{{ url('/home') }}" class="btn btn-primary align-items-center">Submit</a>
                             </div>
                         </div>
                     </div>

@@ -20,7 +20,7 @@
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password!23">
                 </div>
                 <a href="{{ url('/forgot') }}" class="d-lg-flex justify-content-end link-dark">Forgot Password</a>
-                <a href="{{ url('/') }}" type="button" class="d-flex btn btn-primary justify-content-center">Login</a>
+                <a href="{{ url('/home') }}" type="button" class="d-flex btn btn-primary justify-content-center">Login</a>
                 <span class="d-lg-flex mt-2">doesn't have an account? <a href="{{ url('/register') }}" class="d-sm-flex link-dark">Create One!</a></span>
             </div>
         </div>    
