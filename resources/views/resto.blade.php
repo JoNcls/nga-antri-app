@@ -22,7 +22,7 @@
                     Kantin Payung
                 </div>
                 <div class="d-flex my-3 mx-2 align-item-bottom ">
-                    <a href="{{ url('/menu') }}" type="button" class="d-flex btn btn-primary justify-content-center">Menu</a>
+                    <a href="{{ url('/hainam') }}" type="button" class="d-flex btn btn-primary justify-content-center">Menu</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                     Kantin Basement
                 </div>
                 <div class="d-flex my-3 mx-2 align-item-bottom ">
-                    <a href="{{ url('/menu') }}" type="button" class="d-flex btn btn-primary justify-content-center">Menu</a>
+                    <a href="{{ url('/efatta') }}" type="button" class="d-flex btn btn-primary justify-content-center">Menu</a>
                 </div>
             </div>
         </div>

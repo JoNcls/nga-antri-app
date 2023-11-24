@@ -24,8 +24,11 @@ Route::get('/home', function () {
 Route::get('/resto', function () {
     return view('resto'); 
 }); 
-Route::get('/menu', function () {
-    return view('menu'); 
+Route::get('/efatta', function () {
+    return view('menu-efatta'); 
+}); 
+Route::get('/hainam', function () {
+    return view('menu-hainam'); 
 }); 
 Route::get('/cart', function () {
     return view('cart'); 

@@ -33,9 +33,9 @@
 
             <div class="food_content">
                 <a href="{{ url('/menu') }}">
-                    <img src="/image/bakmie.png" alt="" class="foto_makanan">
-                    <div class="nama_makanan">Bakmie Ayam</div>
-                    <div class="tempat_makanan">Bakmie Effata</div>
+                    <img src="/image/menu-images/nasi-hainam.jpg" alt="" class="foto_makanan">
+                    <div class="nama_makanan">Nasi Hainam</div>
+                    <div class="tempat_makanan">Nasi Hainam</div>
                     <img src="/image/rating.png" alr="" class="rating">
                     <div class="lbl_rating">4,7</div>
                     <div class="harga">25.000</div>
@@ -55,9 +55,9 @@
 
             <div class="food_content">
                 <a href="{{ url('/menu') }}">
-                    <img src="/image/bakmie.png" alt="" class="foto_makanan">
-                    <div class="nama_makanan">Bakmie Ayam</div>
-                    <div class="tempat_makanan">Bakmie Effata</div>
+                    <img src="/image/menu-images/nasi-katsu.jpeg" alt="" class="foto_makanan">
+                    <div class="nama_makanan">Nasi Katsu</div>
+                    <div class="tempat_makanan">Nasi Hainam</div>
                     <img src="/image/rating.png" alr="" class="rating">
                     <div class="lbl_rating">4,7</div>
                     <div class="harga">25.000</div>
@@ -112,7 +112,7 @@
             </div>
         </div>
         
-        <div class="category" id="cheap_category"><h1>Cheap</h1></div>
+        {{-- <div class="category" id="cheap_category"><h1>Cheap</h1></div>
         <div class="cheap_container">
             <div class="food_content">
                 <a href="{{ url('/menu') }}">
@@ -157,7 +157,7 @@
                     <div class="harga">25.000</div>
                 </a>    
             </div>
-        </div>
+        </div> --}}
     
     </body>
     </html>
